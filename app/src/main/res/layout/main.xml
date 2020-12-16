@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="top|center"
+	android:orientation="vertical"
+	android:padding="10dp">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="60dp"
+		android:padding="5dp">
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:id="@+id/userEditTextID"
+			android:background="#FFFFFF"
+			android:hint="Note..."
+			android:textColor="#466789"
+			android:textSize="20sp"/>
+
+		<Button
+			android:layout_alignParentRight="true"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:text="+"
+			android:id="@+id/addButtonID"
+			android:textColor="#466789"
+			android:background="#FFFFFF"
+			android:textSize="30sp"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#466789"
+		android:layout_marginBottom="1dp"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#466789"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="5dp">
+
+		<ListView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:divider="#466789"
+			android:dividerHeight="1dp"
+			android:id="@+id/listViewID"
+			android:textColor="#366789"
+			android:textSize="30dp"/>
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#466789"
+		android:layout_marginBottom="1dp"/>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:background="#466789"/>
+
+</LinearLayout>
+
